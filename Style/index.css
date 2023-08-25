@@ -211,10 +211,12 @@ li a:hover {
 }
 
 .hero {
+  width: 100vw;
   display: flex;
-  justify-content: space-between;
-  justify-self: flex-end;
-  align-self: flex-end;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: -10%;
 }
 .hero-text {
   width: 50%;
@@ -337,7 +339,7 @@ li a:hover {
 
 .scroll-button {
   position: relative;
-  bottom: -10%;
+  bottom: 15%;
   left: 0;
   right: 0;
 }
